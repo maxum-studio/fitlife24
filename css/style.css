@@ -31,6 +31,26 @@
 
 /* default theme color #d21f25# */
 
+.fill {
+	background: #d21f25 !important;
+}
+
+.primary-btn, .trainer-btn {
+	transition: background-color 0.4s;
+}
+
+.primary-btn:hover {
+	background-color: #922226;
+}
+
+.trainer-btn:hover {
+	background-color: #3a3a3a !important;
+}
+
+.main-menu .logo a img {
+	margin-top: 15px;
+}
+
 html,
 body {
 	height: 100%;
